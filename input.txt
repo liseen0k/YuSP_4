@@ -1,5 +1,7 @@
 a = 3
 b = 4
 c = a + b
-a = a + 1
-d = a + b
+if c == a + b:
+    a = a + 1
+    d = a + b
+else if b = b + 1
