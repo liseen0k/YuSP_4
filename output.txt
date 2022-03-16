@@ -1,0 +1,7 @@
+a = 3
+b = 4
+c = a + b
+if c == a + b:
+a + +
+d = a + b
+else if b + +
