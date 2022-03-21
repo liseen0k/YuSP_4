@@ -40,10 +40,9 @@ def change_str(copied_str):
             if (copied_str[i][j] == '=' and copied_str[i][j-1] == copied_str[i][j+1] and copied_str[i][j+2] == '+'
                     and copied_str[i][j+3] == '1'):
                 c_list_b = copied_str[i][:j-1]
-                c_list_c = c_list_b + [copied_str[i][j-1], '+', '+']
+                c_list_c = c_list_b + [copied_str[i][j-1]+'++']
                 changed_str.append(c_list_c)
     return changed_str
-
 
 
 i_list = search(lines)
